@@ -1,0 +1,40 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "Ecommerce training API in express JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "debug": "nodemon --ignore database app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.lbg.office.fr.lyra/bcn/ecommerce-js-training.git"
+  },
+  "author": "adamier",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "core-js": "^3.24.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1",
+    "fs-extra": "^10.1.0",
+    "i18n": "^0.15.0",
+    "json-criteria": "^2.6.0",
+    "jsondbfs": "^1.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^3.0.0",
+    "node-json-db": "^1.6.0",
+    "nodemon": "^2.0.19",
+    "underscore": "^1.13.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "jest": "^28.1.3"
+  }
+}

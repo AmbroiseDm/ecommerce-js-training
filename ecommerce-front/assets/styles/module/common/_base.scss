@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+    padding: 0%;
+    margin-top: 0%;
+    color: $primary-color;
+}
+
+p.center {
+    text-align: center;
+}
+
+a.link {
+    color: blue;
+    text-decoration:underline
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
+}

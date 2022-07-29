@@ -1,0 +1,22 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 20px;
+    width: fit-content;
+    background-color: $light-color;
+}
+
+.change-view-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    background-color: $primary-color;
+    color: $light-color;
+    border-style: hidden;
+}

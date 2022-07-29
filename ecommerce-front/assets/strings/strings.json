@@ -1,0 +1,40 @@
+{
+    "en": {
+        "common": {
+            "login": "Login",
+            "register": "Register",
+            "password": "Pasword",
+            "address": "Address",
+            "email": "Email"
+        },
+        "login": {
+            "signIn": "Sign-in",
+            "startHere": "Start here.",
+            "yourName": "Your name",
+            "firstLast": "First and last name",
+            "rePassword": "Re-enter password",
+            "accountExist": "Already have an account?",
+            "minimumPasswordCharacters": "At least 6 characters",
+            "newCustomerQuestion": "New customer? "
+        }
+    },
+    "fr": {
+        "common": {
+            "login": "Connexion",
+            "register": "Créer le compte",
+            "password": "Mot de passe",
+            "address": "Addresse",
+            "email": "Addresse email"
+        },
+        "login": {
+            "signIn": "Se connecter",
+            "startHere": "Créez votre compte",
+            "yourName": "Votre nom",
+            "firstLast": "Prénom et nom de famille",
+            "rePassword": "Confirmer le mot de passe",
+            "accountExist": "Vous possedé déjà un compte?",
+            "minimumPasswordCharacters": "Au moins 6 caractères",
+            "newCustomerQuestion": "Nouvel utilisateur? "
+        }
+    }
+}
